@@ -1,0 +1,7 @@
+1. javac -d bin ./*.java
+2. cd bin
+3. jar -c -f loan.jar Loans/
+4. cd ..
+5. cd DemoApp/
+6. javac -cp bin/:lib/loan.jar Program.java
+7. java -cp bin/:lib/loan.jar Program.java
