@@ -14,7 +14,7 @@ public abstract class Loan{
     }
 
     public void setPeriod(int period) {
-        this.period = period;
+        this.period =  period;
     }
 
     public void setPrinciple(double principle) {
@@ -25,4 +25,9 @@ public abstract class Loan{
     }
 
     public abstract float getRate();
+
+    public double getEmi(Loan l){
+        return principle * (1 + l.getRate() * period / 100) / (12 * period);
+    }
+    
 }
