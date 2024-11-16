@@ -1,0 +1,7 @@
+app/components/Employees.class
+app/components/Departments.class
+app/components/EmpDBConnect.class
+app/components/EmpTag.class
+app/components/MessageTag.class
+app/components/DeptTag.class
+app/components/EmpController.class
